@@ -10,3 +10,7 @@ Get anchored linked on a page.
 FindToken
   name=\"(.{0,30}(?:\[|\"|_).{0,20}token(?:\]\"|\")) value=\"(.+?)\"
 Find the csrf token(s) on a page.
+
+AmplessHref
+  href="(http[s]?:\/(?:\/[^"]*?\/)*?\?(?:[^"&]*?&))amp;(.*?)"
+Remove a single "amp;" from query parameters in a url. 
