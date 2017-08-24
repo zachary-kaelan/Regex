@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.min.css?v=1.2.4" />
+	
+	<link rel="shortcut icon" type="image/ico" href="/static/icons/opendns.ico" />
+	
+	
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', "UA-1163522-16"]);
+		
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		</script>
+	
+	<title>Site Blocked</title>
+</head>
+<body>
+	<div class="container">
+		<div class="logo-area">
+			
+			<img id="logo" class="logo" src="https://d36u8deuxga9bo.cloudfront.net/branding-logo/a43fa6ec4eed910bbd1c591fd0a4e1904ef9c641"></img>
+			
+		</div>
+		<div class="content-area">
+
+
+	<h2>
+		You are now signed in.
+	</h2>
+	<p>
+		<a href="http://production.shippingapis.com/_bpb/1/c7zviD580:1503423401iz:2196619:65184281:-2151741:56?bpbcheck=DgqeU37eJC216EfDsflHGw&amp;bpbexp=1503423401" onclick="popup()" id="continueLink">Continue browsing at production.shippingapis.com</a>
+	</p>
+
+	<script type="text/javascript">
+	function popup() {
+		window.open("/auth/logout/", "BPBLogout", "height=600,width=800,left=10,top=10");
+	}
+	</script>
+
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="/static/js/scripts.min.js?v=1.2.4"></script>
+</body>
+</html>
+
