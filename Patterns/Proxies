@@ -1,0 +1,3 @@
+bpbOpenDNSCode
+  href="http:\/\/production\.shippingapis\.com\/_bpb\/1\/(.+?)(?:-|:)(.+?):.+?((?:\/|\?).+?&)amp;(.+?)"
+Get the bits of an OpenDNS URL that change.
