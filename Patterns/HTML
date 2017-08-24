@@ -6,3 +6,7 @@ Get all name-value pairs (for POST requests).
 AnchorHref
   a href=\"(.+?)"
 Get anchored linked on a page.
+
+FindToken
+  name=\"(.{0,30}(?:\[|\"|_).{0,20}token(?:\]\"|\")) value=\"(.+?)\"
+Find the csrf token on a page.
