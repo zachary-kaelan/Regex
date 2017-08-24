@@ -1,1 +1,3 @@
-
+TaskDateAssigned
+  Assigned\s{0,55}on (.+?(?:AM|PM))
+Get dates to correspond with BillSumDownloadLinks.
