@@ -1,3 +1,7 @@
 ServiceAgreement
   Service Information Billing Information\s(.*?) - (.*?), (.*?, .. \d{0,5})
 Get key customer information from text extracted from a PDF.
+
+ScheduleMonths
+  ^\s{2}([A-Za-z]{3} \d{4})$\s^\s{2}(.+?)$\s^\s{2}(tx\. .+?)$
+Get the four to five months that make up a service schedule.
