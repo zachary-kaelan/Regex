@@ -1,0 +1,3 @@
+HexWord64ToUnsignedInt64
+  W64LIT\((.+?)\)(   \/\*\s*?\d{1,4} \*\/,?\s{0,5})
+Changes Word64 declarations in C/C++ to UInt64 declarations in C#.
