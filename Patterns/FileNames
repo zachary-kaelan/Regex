@@ -1,0 +1,3 @@
+BillSumsFileName
+  \\billing-summary(\d{1,2})\.pdf
+Check if a file is a billing summary (without SPLIT in the name).
