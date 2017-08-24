@@ -1,0 +1,1456 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <title>Message Board</title>
+
+                            <link rel="stylesheet" href="https://myvantagetracker.com/css/application.css?2.17.6-4-1" />
+                    
+        <!--[if lte IE 8]>
+                <link rel="stylesheet" href="https://myvantagetracker.com/css/application-ie.css?2.17.6-4-1" />
+                        <script type="text/javascript" src="https://myvantagetracker.com/js/application-ie.js?2.17.6-4-1"></script>
+                <![endif]-->
+
+                <script type="text/javascript" src="https://myvantagetracker.com/js/jquery.js?2.17.6-4-1"></script>
+                        <script type="text/javascript" src="https://myvantagetracker.com/js/mobile.js?2.17.6-4-1"></script>
+                <link rel="icon" type="image/x-icon" href="https://myvantagetracker.com/favicon.ico?2.17.6-4-1" />
+    </head>
+                <body class="navbar-fixed theme-insightful">
+        <div id="loading-spinner" class="loading-spinner"></div>
+        <div class="page-container">
+                <div class="navbar navbar-fixed-top" id="navbar">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a href="/" class="brand">
+                        						<img class="logo" src="https://myvantagetracker.com/file/920522/view" alt="Insight - Employees" title="Insight - Employees Logo" />
+					</a>
+
+                    					<ul class="nav ace-nav pull-right">
+                                                <li class="grey">
+                            <a href="" class="intercom_activator">
+                                <i class="icon-comment"></i>
+                            </a>
+                        </li>
+                                                <li class="grey notifications">
+    <a data-toggle="dropdown" class="dropdown-toggle" href="javascript:;">
+        <i class="icon-bell-alt icon-animated-bell"></i>
+        <span class="notification-count badge badge-grey">37</span>
+    </a>
+
+    <ul id="notification-center" class="dropdown-navbar dropdown-menu dropdown-caret dropdown-closer notification-center">
+        <li class="nav-header">
+            <i class="icon-tasks"></i>
+            Notification Center
+        </li>
+
+        <li class="notification">
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263948" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:32 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263954" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/ffca791d17172f7bd397b566fcd0ece1">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:35 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261264" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/c4f4f191321bd0f4159a04f2df59a53c">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/01/17 7:53 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261251" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/01/17 7:19 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263939" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/f90409268215c3fef1b2f6ddf1d43241">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:29 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261101" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/95e31274310bb040b1e1770f20453580">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 1:22 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263945" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/aa661ee9087dc998891d763f68cb08cd">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:31 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261048" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/da24b49e4fc04a6e86642de3f56a1184">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 11:28 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263950" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/daa9f745e5ee2a6b54ea7ea04d3e2ee6">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:33 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261038" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/dcc6c2751145f89dc1c7b94920a0fdff">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 11:03 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263955" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/5822c724dc6737da267dc3e44c910c58">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:36 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261255" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/111b22dcdd94db1b5176d871231d24f1">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/01/17 7:32 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263952" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/0e01af46d08b82f3a2eb79e6af7eed47">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:33 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263951" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/1cd1527b0d10844b95975dea25d2861f">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:33 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261252" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/e28fd58952cc43a17199c83327d9da51">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/01/17 7:22 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261092" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/885c8d79419d53f37c1724d0016a7783">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 1:18 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263946" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/ecfd09c47565b358eb4dadd717d8fb24">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:31 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263941" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/7729ea99c43b8c16954896622ef10351">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:30 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261070" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/19b98c722923314c676fa2acedf56ad8">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 12:29 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263943" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/10b1e75e49befbff8b5c533822a097f1">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:31 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261071" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 12:29 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263942" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:30 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261102" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/c73faab0d97c2598fd2dcc379cb0fc4d">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 1:23 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263949" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/09714da8d16e0820c0bdc4eb5779de19">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:32 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261055" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/ca7451c99e38f7d93d4844e0dcf3b05d">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 11:49 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263940" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/60154f0392b5b0cbf29149ea49e20721">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:29 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261077" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/b13cf65b98a5eb48a134098a16222841">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 12:46 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261074" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/490c5d048e7efe786eae8b9ca0b14f8b">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 12:37 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263944" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/993a5600c0f19a07c33365c7e857851a">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:31 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261035" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/30ff01763ef21e0ebf8fe0d2b8b2e411">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 10:54 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261065" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/19b98c722923314c676fa2acedf56ad8">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 12:18 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261066" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/19b98c722923314c676fa2acedf56ad8">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 12:20 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263953" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/9fa7fd29ee61cf26710f9dce9a9ac51f">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:34 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261266" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/597a28d9ab63e0994e3d647fc39caa37">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/01/17 8:03 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2261081" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/f37aec7164a7bb6ddc03600ad5593a37">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 07/31/17 1:01 PM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263947" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/4d3b4bf982ddc3e8f30ce7b7313b2bbe">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:32 AM
+                </div>
+            </div>
+                    <div class="alert  alert-success ">
+                <button class="close" data-id="2263958" type="button">×</button>
+                <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+                </div>
+                <div>
+                    <br/>
+                    Assigned
+                                        on 08/18/17 8:51 AM
+                </div>
+            </div>
+                </li>
+
+        <li class="gray">
+            <a href="/message-board">
+                Go to Message Board
+                <i class="icon-arrow-right"></i>
+            </a>
+        </li>
+    </ul>
+    <script type="text/javascript">
+        $(function() {
+                        var snd = new Audio("https://myvantagetracker.com/snd/chime.wav?2.17.6-4-1");
+            snd.play();
+                        var container = document.getElementById('notification-center');
+            Pocomos.notifications = new Pocomos.NotificationManager(container, {
+                closeRoute: Pocomos.router.closure('notification_complete'),
+                close: function(event) {
+                    $('.notification-count').text(event.count);
+                },
+                empty: function() {
+                    $(container).find('li.notification').remove();
+                }
+            });
+        });
+    </script>
+</li>
+
+                                                
+                                                <li class="office-select">
+    <a data-toggle="dropdown" class="dropdown-toggle" href="javascript:;">
+        <i class="icon-th-large"></i>
+        <span class="hidden-phone">Insight - Employees</span>
+        <i class="icon-caret-down"></i>    </a>
+
+        <ul class="branch-select dropdown-navbar dropdown-menu dropdown-closer">
+        <li class="nav-header">
+            <i class="icon-th-large"></i>
+            Select Branch
+        </li>
+
+        <li class="inactive-item">
+            <form id="office_select" method="post" action="/branch-switch">
+                <select id="office_select_office" name="office_select[office]">            <option value="144" >Insight - Boston, MA</option>            <option value="320" >Insight - Chicago, IL</option>            <option value="118" >Insight - Cleveland, OH</option>            <option value="120" >Insight - Columbus, OH</option>            <option value="328" >Insight - Connecticut</option>            <option value="599"  selected="selected">Insight - Employees</option>            <option value="125" >Insight - Fairfax, VA</option>            <option value="126" >Insight - Fairfax, VA (North)</option>            <option value="128" >Insight - Indianapolis, IN</option>            <option value="167" >Insight - Jersey</option>            <option value="129" >Insight - Kansas City, MO</option>            <option value="563" >Insight - Lauderdale/Miami, FL</option>            <option value="326" >Insight - Minneapolis, MN</option>            <option value="325" >Insight - North Jersey</option>            <option value="327" >Insight - Philadelphia, PA</option>            <option value="138" >Insight - Rhode Island</option>            <option value="551" >Insight - Virginia Beach, VA</option>            <option value="598" >Insight - Wilmington, NC</option></select>
+                <div class="hidden">
+                    <input type="hidden" id="office_select__token" name="office_select[_token]" value="0zSWmhfwZ3FNXQdww2X2KYXwcuMqueEOIVVR2Fjj1lQ" />
+                </div>
+            </form>
+        </li>
+    </ul>
+    <script type="text/javascript">
+        $(function() {
+            var form = document.getElementById('office_select'),
+                $dropdown = $('.branch-select');
+            Pocomos.form.bind(form);
+            $(document.getElementById('office_select_office')).change(function() {
+                $(form).submit();
+            });
+            $dropdown.click(function(e) {
+                e.stopPropagation();
+            });
+        });
+    </script>
+    </li>
+
+
+						<li class="light-blue user-profile">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+                                <i class="icon-user"></i>
+
+                                Zachary Johnson
+
+								<i class="icon-caret-down"></i>
+							</a>
+							<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-closer">
+                                <li>
+									<a id="help-support" href="#">
+										<i class="icon-question-sign"></i>
+										Help &amp; Support
+									</a>
+								</li>
+								<li>
+									<a data-modal="true" href="/profile/">
+										<i class="icon-cog"></i>
+										Edit Profile
+									</a>
+								</li>
+                                                                    <li>
+                                        <a href="/announcements/">
+                                            <i class="icon-rocket"></i>
+                                            What's New
+                                        </a>
+                                    </li>
+                                
+                                
+								<li class="divider"></li>
+
+                                
+								<li>
+									<a href="/logout">
+										<i class="icon-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+                    
+
+
+				</div>
+			</div>
+		</div>
+
+        <div class="main-container container-fluid">
+			<a class="menu-toggler" id="menu-toggler" href="#">
+				<span class="menu-text"></span>
+			</a>
+
+			<div class="sidebar" id="sidebar">
+				<div class="sidebar-shortcuts" id="sidebar-shortcuts">
+    <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+            <a href="/customer/new" class="btn btn-small btn-primary">
+            <i class="icon-plus"></i> ADD CUSTOMER
+        </a>
+        </div>
+
+    <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+            <a href="/customer/new" class="btn btn-primary">
+            <i class="icon-plus"></i> ADD CUSTOMER
+        </a>
+        </div>
+</div>
+
+
+                
+<ul class="nav nav-list">
+    
+    <li class="active"><a href="/message-board"><i class="icon-list-alt"></i><span class="menu-text"> Message Board </span></a></li>
+
+    <li><a class="dropdown-toggle" href="#"><i class="icon-search"></i><span class="menu-text"> Customers </span><b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/customers/"><i class="icon-double-angle-right"></i>                            View All
+                    </a></li><li><a href="/customers/advanced-search/show"><i class="icon-double-angle-right"></i>                            Advanced Search
+                    </a></li><li><a href="/customer-map/"><i class="icon-double-angle-right"></i><i class="icon-globe"></i>                    Customer Map
+                    </a></li><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            Leads
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/leads/">
+                                    View All
+                    </a></li><li><a href="/leads/map">
+                                    Map
+                    </a></li><li><a href="/leads/report">
+                                    Report
+                    </a></li></ul></li></ul></li>
+
+
+    <li><a class="dropdown-toggle" href="#"><i class="icon-map-marker"></i><span class="menu-text"> Route </span><b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/routes/view/map"><i class="icon-double-angle-right"></i>                            Map
+                    </a></li><li><a href="/routes/calendar"><i class="icon-double-angle-right"></i>                            Calendar
+                    </a></li><li><a href="/routes/reminder"><i class="icon-double-angle-right"></i>                            Reminder
+                    </a></li><li><a href="/routes/view"><i class="icon-double-angle-right"></i>                            View/Add
+                    </a></li><li><a href="/routes/process"><i class="icon-double-angle-right"></i>                            Process
+                    </a></li><li><a href="/routes/reschedule"><i class="icon-double-angle-right"></i>                            Reschedule
+                    </a></li></ul></li>
+
+    <li><a class="dropdown-toggle" href="#"><i class="icon-barcode"></i><span class="menu-text"> Inventory </span><b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/products/"><i class="icon-double-angle-right"></i>                            Products
+                    </a></li><li><a href="/vehicles/"><i class="icon-double-angle-right"></i>                            Vehicles
+                    </a></li><li><a href="/distributors/"><i class="icon-double-angle-right"></i>                            Distributors
+                    </a></li></ul></li>
+
+    <li><a class="dropdown-toggle" href="#"><i class="icon-cog"></i><span class="menu-text"> Settings </span><b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            Manage
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/pests/">
+                                    Pests
+                    </a></li><li><a href="/areas/">
+                                    Areas
+                    </a></li><li><a href="/tags/">
+                                    Tags
+                    </a></li><li><a href="/counties/">
+                                    Counties
+                    </a></li><li><a href="/custom-fields/">
+                                    Custom Fields
+                    </a></li><li><a href="/status-reasons/">
+                                    Cancel Reasons
+                    </a></li><li><a href="/thresholds/">
+                                    Best Fit Thresholds
+                    </a></li></ul></li><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            Types
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/service-types/">
+                                    Service Types
+                    </a></li><li><a href="/services/">
+                                    Application Types
+                    </a></li><li><a href="/marketing-types/">
+                                    Marketing Types
+                    </a></li></ul></li><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            Configuration
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/pest/office-configuration/edit">
+                                    Scheduling
+                    </a></li><li><a href="/pest/office-configuration/route/edit">
+                                    Routing
+                    </a></li><li><a href="/pest/office-configuration/email/edit">
+                                    Email Notifications
+                    </a></li><li><a href="/form-letters/">
+                                    Form Letters
+                    </a></li><li><a href="/sms-form-letters/">
+                                    SMS
+                    </a></li><li><a href="/invoice-settings/edit">
+                                    Invoice Settings
+                    </a></li><li><a href="/pest/office-configuration/invoice-defaults">
+                                    Invoice Defaults
+                    </a></li></ul></li><li><a href="/qr-code/batches/"><i class="icon-double-angle-right"></i>                            QR Codes
+                    </a></li><li><a href="/agreements/"><i class="icon-double-angle-right"></i>                            Agreements
+                    </a></li><li><a href="/office-configuration/appearance"><i class="icon-double-angle-right"></i>                            Appearance
+                    </a></li><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            Company
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/current-office/edit">
+                                    Summary
+                    </a></li><li><a href="/tax-codes/">
+                                    Tax Codes
+                    </a></li></ul></li></ul></li>
+
+
+    <li><a class="dropdown-toggle" href="#"><i class="icon-credit-card"></i><span class="menu-text"> Financial </span><b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/customers/transactions"><i class="icon-double-angle-right"></i>                            Transactions
+                    </a></li><li><a href="/invoices/search/"><i class="icon-double-angle-right"></i>                            Invoice Search
+                    </a></li><li><a href="/finance/unpaid"><i class="icon-double-angle-right"></i>                            Unpaid Jobs
+                    </a></li><li><a href="/finance/payments"><i class="icon-double-angle-right"></i>                            Scheduled Payments
+                    </a></li><li><a href="/finance/card-management"><i class="icon-double-angle-right"></i>                            Card Management
+                    </a></li></ul></li>
+
+    <li><a class="dropdown-toggle" href="#"><i class="icon-dashboard"></i><span class="menu-text"> Reports </span><b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/dashboard-report"><i class="icon-double-angle-right"></i>                            Dashboard
+                    </a></li><li><a href="/tech-report"><i class="icon-double-angle-right"></i>                            Technician Report
+                    </a></li><li><a href="/tech-report/new"><i class="icon-double-angle-right"></i>                            New Technician Report
+                    </a></li><li><a href="/payment-report"><i class="icon-double-angle-right"></i>                            Payment Report
+                    </a></li><li><a href="/contract-report/"><i class="icon-double-angle-right"></i>                            Contract Report
+                    </a></li><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            Account Status
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/sales-report">
+                                    Account Status Report
+                    </a></li><li><a href="/account-status-totals-report/">
+                                    Account Status Totals
+                    </a></li><li><a href="/production-report/">
+                                    Production Report
+                    </a></li><li><a href="/ranked-sales-report/">
+                                    Ranked Sales Report
+                    </a></li></ul></li><li><a href="/comparison-report/"><i class="icon-double-angle-right"></i>                            Comparison Report
+                    </a></li><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            Usage
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/usage-report">
+                                    Usage Report
+                    </a></li><li><a href="/ny-usage-report">
+                                    NY Usage Report
+                    </a></li></ul></li><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            Tax Reports
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/tax-report/summary">
+                                    Tax Summary
+                    </a></li><li><a href="/tax-report/detail">
+                                    Tax Detail
+                    </a></li></ul></li><li><a href="/cancelled-report"><i class="icon-double-angle-right"></i>                            Delinquent Report
+                    </a></li><li><a href="/prepaid-credit"><i class="icon-double-angle-right"></i>                            Prepaid Report
+                    </a></li><li><a class="dropdown-toggle" href="#"><i class="icon-double-angle-right"></i>                            History
+                            <b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/email-history/">
+                                    Email Report
+                    </a></li></ul></li></ul></li>
+
+    <li><a class="dropdown-toggle" href="#"><i class="icon-dollar"></i><span class="menu-text"> Sales Tracker </span><b class="arrow icon-angle-down"></b></a><ul class="submenu"><li><a href="/chargebacks/"><i class="icon-double-angle-right"></i>                            Chargebacks
+                    </a></li><li><a href="/chargeback-report/"><i class="icon-double-angle-right"></i>                            Chargeback Report
+                    </a></li><li><a href="/commission-report/"><i class="icon-double-angle-right"></i>                            Commission Report
+                    </a></li><li><a href="/sales-status/bulk-edit"><i class="icon-double-angle-right"></i>                            Sales Status Modifier
+                    </a></li><li><a href="/company-records/"><i class="icon-double-angle-right"></i>                            Company Records
+                    </a></li><li><a href="/manage/users/"><i class="icon-double-angle-right"></i>                            Salespeople
+                    </a></li><li><a href="/manage/teams/"><i class="icon-double-angle-right"></i>                            Teams
+                    </a></li><li><a href="/office/bonuses"><i class="icon-double-angle-right"></i>                            Bonuses
+                    </a></li><li><a href="/top-twenty/admin"><i class="icon-double-angle-right"></i>                            Top Twenty
+                    </a></li><li><a href="/summer-total/"><i class="icon-double-angle-right"></i>                            Summer Totals
+                    </a></li></ul></li>
+    
+
+</ul>
+<div class="sidebar-collapse" id="sidebar-collapse">
+    <i class="icon-double-angle-left" data-toggle-icon="icon-double-angle-right"></i>
+</div>
+
+			</div>
+
+			<div class="main-content">
+                <div class="breadcrumbs" id="breadcrumbs">
+					                    <div class="nav-search" id="nav-search">
+						<form class="form-search">
+							<span class="input-icon">
+								<input tabindex="1000" type="text" placeholder="Search Customers..." class="input-small nav-search-input" id="customer-quick-search" autocomplete="off" />
+								<i class="icon-search nav-search-icon"></i>
+							</span>
+						</form>
+					</div>
+                    
+				</div>
+                				<div class="page-content">
+					<div class="row-fluid">
+						<div class="span12">
+                                                        <div class="page-header">
+                                <h1 class="clearfix">
+                                    Message Board
+                                    
+                                                                                                        </h1>
+                            </div>
+                            
+                                        <div class="row-fluid">
+            <div class="span12 widget-container-span">
+    <div class="widget-box">
+                <div class="widget-header widget-header-flat ">
+            <h5><i class="icon-header icon-warning-sign"></i> Alerts</h5>
+
+            
+<div class="widget-toolbar">
+    <div class="btn-group">
+        <a class="btn btn-small btn-warning"  href="/notification/complete/all"
+           data-method="post" data-confirm="Are you sure you want to Mark All Alerts as Completed? (This will not affect Alerts that are in Progress)">
+            <i class="icon-check"></i>Mark All As Completed
+        </a>
+    </div>
+</div>
+<div class="widget-toolbar">
+    <div class="btn-group">
+        <a href="/message-someone/alert/new" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Alert Someone</a>
+    </div>
+</div>
+<div class="widget-toolbar">
+    <div class="btn-group">
+        <a href="/message-branch/alert/new" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Alert Branch</a>
+    </div>
+</div>
+<div class="widget-toolbar">
+    <div class="btn-group">
+        <a href="/message-team/alert/new" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Alert Team</a>
+    </div>
+</div>
+<div class="widget-toolbar">
+    <div class="btn-group">
+        <a href="/alert/464751/new" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Add Alert</a>
+    </div>
+</div>
+
+
+        </div>
+        
+        <div class="widget-body">
+            <div class="widget-main">
+                    <div id="alert-container" class="row-fluid">
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263948" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263954" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/ffca791d17172f7bd397b566fcd0ece1">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261264" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/c4f4f191321bd0f4159a04f2df59a53c">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/01/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261251" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/01/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263939" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/f90409268215c3fef1b2f6ddf1d43241">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261101" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/95e31274310bb040b1e1770f20453580">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263945" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/aa661ee9087dc998891d763f68cb08cd">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261048" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/da24b49e4fc04a6e86642de3f56a1184">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263950" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/daa9f745e5ee2a6b54ea7ea04d3e2ee6">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261038" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/dcc6c2751145f89dc1c7b94920a0fdff">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263955" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/5822c724dc6737da267dc3e44c910c58">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261255" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/111b22dcdd94db1b5176d871231d24f1">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/01/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263952" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/0e01af46d08b82f3a2eb79e6af7eed47">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263951" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/1cd1527b0d10844b95975dea25d2861f">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261252" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/e28fd58952cc43a17199c83327d9da51">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/01/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261092" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/885c8d79419d53f37c1724d0016a7783">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263946" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/ecfd09c47565b358eb4dadd717d8fb24">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263941" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/7729ea99c43b8c16954896622ef10351">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261070" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/19b98c722923314c676fa2acedf56ad8">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263943" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/10b1e75e49befbff8b5c533822a097f1">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261071" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263942" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261102" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/c73faab0d97c2598fd2dcc379cb0fc4d">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263949" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/09714da8d16e0820c0bdc4eb5779de19">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261055" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/ca7451c99e38f7d93d4844e0dcf3b05d">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263940" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/60154f0392b5b0cbf29149ea49e20721">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261077" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/b13cf65b98a5eb48a134098a16222841">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261074" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/490c5d048e7efe786eae8b9ca0b14f8b">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263944" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/993a5600c0f19a07c33365c7e857851a">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261035" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/30ff01763ef21e0ebf8fe0d2b8b2e411">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261065" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/19b98c722923314c676fa2acedf56ad8">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261066" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/19b98c722923314c676fa2acedf56ad8">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263953" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/9fa7fd29ee61cf26710f9dce9a9ac51f">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261266" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/597a28d9ab63e0994e3d647fc39caa37">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/01/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2261081" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/f37aec7164a7bb6ddc03600ad5593a37">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 07/31/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263947" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/4d3b4bf982ddc3e8f30ce7b7313b2bbe">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+                <div class="alert  alert-success ">
+            <button class="close" data-id="2263958" type="button">×</button>
+            <div>
+                <strong>Billing Summary Completed</strong><br />The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a>
+            </div>
+            <div>
+                <br/>
+                Assigned
+                                on 08/18/17
+            </div>
+        </div>
+            </div>
+        <script type="text/javascript">
+        $(function() {
+            var container = document.getElementById('alert-container');
+            Pocomos.notifications.bind(container, {
+                empty: function() {
+                    $(container).html('<h5>No alerts.</h5>');
+                }
+            });
+        });
+    </script>
+            </div>
+                                </div>
+    </div>
+</div>
+
+        </div>
+        <hr />
+    
+            <div class="row-fluid">
+            <div class="span12 widget-container-span">
+    <div class="widget-box">
+                <div class="widget-header widget-header-flat ">
+            <h5><i class="icon-header icon-calendar"></i> Tasks</h5>
+
+                    <div class="widget-toolbar">
+        <div class="btn-group">
+            <a href="/message-someone/todo/new" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Task Someone</a>
+        </div>
+    </div>
+                <div class="widget-toolbar">
+        <div class="btn-group">
+            <a href="/message-branch/todo/new" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Task Branch</a>
+        </div>
+    </div>
+            <div class="widget-toolbar">
+        <div class="btn-group">
+            <a href="/message-team/todo/new" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Task Team</a>
+        </div>
+    </div>
+        <div class="widget-toolbar">
+        <div class="btn-group">
+            <a href="/464751/user-newtodo" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Add Task</a>
+        </div>
+    </div>
+            </div>
+        
+        <div class="widget-body">
+            <div class="widget-main no-padding">
+                        <div class="row-fluid">
+            <table id="todo-table" class="table table-striped table-bordered align-middle">
+                <thead>
+                    <tr>
+                        <th data-hide="phone">Priority</th>
+                        <th data-hide="phone">Name</th>
+                        <th>Description</th>
+                        <th data-hide="phone">Status</th>
+                        <th data-hide="phone">Assigned By</th>
+                        <th>Date Due</th>
+                        <th data-sortable="false"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                                </tbody>
+            </table>
+        </div>
+
+        <script type="text/javascript">
+            $(function() {
+//                Pocomos.table.bind(document.getElementById('todo-table'));
+            });
+        </script>
+                </div>
+                                </div>
+    </div>
+</div>
+
+        </div>
+        <hr />
+    
+            <div class="row-fluid">
+            <div class="span12 widget-container-span">
+    <div class="widget-box">
+                <div class="widget-header widget-header-flat ">
+            <h5><i class="icon-header icon-edit"></i> Notes</h5>
+
+                <div class="widget-toolbar">
+        <div class="btn-group">
+            <a href="/464751/officeuser/note/new" data-modal="true" class="btn btn-primary btn-small"><i class="icon-plus"></i> Add Note</a>
+        </div>
+    </div>
+            </div>
+        
+        <div class="widget-body">
+            <div class="widget-main no-padding">
+                        <div class="row-fluid">
+            <table id="note-table" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Date Created</th>
+                        <th>Summary</th>
+                        <th>Details</th>
+                        <th data-hide="phone">Created By</th>
+                        <th data-sortable="false"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript">
+            $(function() {
+                Pocomos.table.bind(document.getElementById('note-table'));
+            });
+        </script>
+                </div>
+                                </div>
+    </div>
+</div>
+
+        </div>
+        <hr />
+    
+            <div class="row-fluid">
+            <div class="span12 widget-container-span">
+    <div class="widget-box">
+                <div class="widget-header widget-header-flat ">
+            <h5><i class="icon-header icon-time"></i> History</h5>
+
+                <div class="widget-toolbar"><i class="icon-chevron-down" id="alert-history-toggle"></i></div>
+            </div>
+        
+        <div class="widget-body hide">
+            <div class="widget-main no-padding">
+                        <div class="row-fluid" id="alert-history">
+            <table id="history-table" class="table table-striped table-bordered align-middle">
+                <thead>
+                    <tr>
+                        <th class="expand" data-class="expand" style="width: 15%;"></th>
+                        <th data-hide="always">Priority</th>
+                        <th data-hide="always">Name</th>
+                        <th>Description</th>
+                        <th>Date Completed</th>
+                        <th data-hide="phone">Assigned By</th>
+                        <th data-hide="phone">Assigned To</th>
+                        <th data-hide="always">Date Due</th>
+                    </tr>
+                </thead>
+                <tbody>
+                                    <tr>
+                        <td></td>
+                        <td>Success</td>
+                        <td>Billing Summary Completed</td>
+                        <td>The billing summary has been successfully completed.<br><br><a href="https://myvantagetracker.com/billing-summary/download/">Download Billing Summary</a></td>
+                        <td>06/30/17 7:44 AM</td>
+                        <td>Zachary Johnson</td>
+                        <td>Zachary Johnson</td>
+                        <td></td>
+                    </tr>
+                                </tbody>
+            </table>
+        </div>
+        <script type="text/javascript">
+            $(function() {
+                var $table = $(document.getElementById('history-table'));
+                var $body = $table.closest('.widget-body');
+                var $toggleIcon = $(document.getElementById('alert-history-toggle'));
+                var $toggle = $toggleIcon.closest('.widget-header');
+
+                $body.css('display', 'none').removeClass('hide');
+                $toggle.css('cursor', 'pointer');
+                $toggle.on('click', function() {
+                    if ($toggleIcon.hasClass('icon-chevron-down')) {
+                        $body.slideDown('fast');
+                        $toggleIcon.removeClass('icon-chevron-down').addClass('icon-chevron-up');
+                    } else {
+                        $body.slideUp('fast');
+                        $toggleIcon.removeClass('icon-chevron-up').addClass('icon-chevron-down');
+                    }
+                });
+
+                Pocomos.table.bind(document.getElementById('history-table'), {
+                    sort: [[4, 'desc']]
+                });
+            });
+        </script>
+                </div>
+                                </div>
+    </div>
+</div>
+
+        </div>
+        <hr />
+    
+    
+                        </div>
+					</div>
+				</div>
+                			</div>
+		</div>
+                </div>
+
+                    <script type="text/javascript">
+    (function(window, $) {
+        window.Pocomos = window.Pocomos || {};
+        window.Pocomos.basePath = "";
+        window.Pocomos.baseUrl  = "";
+
+        $(function() {
+            window.Pocomos.alert.showFlashes([]);
+        });
+    })(this, this.jQuery);
+</script>
+<script type="text/javascript" src="https://myvantagetracker.com/js/application.js?2.17.6-4-1"></script>
+
+        
+                <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-43438801-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+            <script type="text/javascript">
+        window.intercomSettings = {
+            app_id: "gy2nqz9w",
+            name: "Zachary Johnson From Insight - Employees",
+            email: "z.johnson@insightpest.com",
+            user_id: 213355,
+            created_at: 1494939301,
+                        user_type :'Company User',
+                        "custom_launcher_selector": ".intercom_activator"
+
+        };
+    </script>
+    <script type="text/javascript">(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/gy2nqz9w';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+
+                    <script type="text/javascript">
+            $(function() {
+                Pocomos.table.bind('#todo-table')
+            });
+        </script>
+    
+        
+        <!-- Prompt IE < 8 users to install Chrome Frame. -->
+        <!--[if lt IE 8 ]>
+        <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+        <![endif]-->
+    </body>
+    </html>
