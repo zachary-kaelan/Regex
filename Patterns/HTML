@@ -9,4 +9,4 @@ Get anchored linked on a page.
 
 FindToken
   name=\"(.{0,30}(?:\[|\"|_).{0,20}token(?:\]\"|\")) value=\"(.+?)\"
-Find the csrf token on a page.
+Find the csrf token(s) on a page.
