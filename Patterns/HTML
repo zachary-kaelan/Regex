@@ -1,0 +1,2 @@
+(?:name|id)=(?<x>['"])([^"'>]*?)\k<x>[^>]*?value=(?<y>['"])([^'">]*?)\k<y>
+  Get all name-value pairs (for POST requests).
