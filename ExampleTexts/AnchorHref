@@ -1,0 +1,66 @@
+HTTP/1.1 200 OK
+Server: openresty
+Date: Fri, 18 Aug 2017 19:20:29 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Set-Cookie: override=-2151741:production.shippingapis.com; Path=/; Expires=Fri, 18 Aug 2017 19:25:29 GMT; HttpOnly; Secure
+X-Request-Id: b6bjrvf3uilgre4c6pdg
+P3P: CP="CAO PSA OUR"
+Content-Length: 2100
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.min.css?v=1.2.4" />
+	
+	<link rel="shortcut icon" type="image/ico" href="/static/icons/opendns.ico" />
+	
+	
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', "UA-1163522-16"]);
+		
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		</script>
+	
+	<title>Site Blocked</title>
+</head>
+<body>
+	<div class="container">
+		<div class="logo-area">
+			
+			<img id="logo" class="logo" src="https://d36u8deuxga9bo.cloudfront.net/branding-logo/a43fa6ec4eed910bbd1c591fd0a4e1904ef9c641"></img>
+			
+		</div>
+		<div class="content-area">
+
+
+	<h2>
+		You are now signed in.
+	</h2>
+	<p>
+		<a href="https://production.shippingapis.com/_bpb/1/d3CDyq176_1503084329yC:2196619:65184281:-2151741:-/ShippingAPI.dll?API=ZipCodeLookup&amp;XML=%3CZipCodeLookupRequest&#43;USERID%3D%22284INSIG3782%22%3E%3CAddress&#43;ID&#43;%3D&#43;%270%27%3E%3CFirmName%3E%3C%2FFirmName%3E%3CAddress1%3E%3C%2FAddress1%3E%3CAddress2%3E25771&#43;Juniper&#43;Avenue%3C%2FAddress2%3E%3CCity%3ENew&#43;Prague%3C%2FCity%3E%3CState%3EMN%3C%2FState%3E%3C%2FAddress%3E%3C%2FZipCodeLookupRequest%3E&amp;bpbcheck=wuA2gH1lRzTHAOtPNAd82Q&amp;bpbexp=1503084329" onclick="popup()" id="continueLink">Continue browsing at production.shippingapis.com</a>
+	</p>
+
+	<script type="text/javascript">
+	function popup() {
+		window.open("/auth/logout/", "BPBLogout", "height=600,width=800,left=10,top=10");
+	}
+	</script>
+
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="/static/js/scripts.min.js?v=1.2.4"></script>
+</body>
+</html>
+
