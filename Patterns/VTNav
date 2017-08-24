@@ -1,3 +1,7 @@
 TaskDateAssigned
   Assigned\s{0,55}on (.+?(?:AM|PM))
 Get dates to correspond with BillSumDownloadLinks.
+
+InvoiceLink
+  data-jobid=\"(.*?)\">[\s\S]{50,75}<td>([\/\d]*?)\s*?<\/td>
+Gets the number needed as a part of a URL to download an invoice from a customer's service history.
