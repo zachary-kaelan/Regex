@@ -1,5 +1,6 @@
 KeyValuePairs
-  (?:name|id)=(?<x>['"])([^"'>]*?)\k<x>[^>]*?value=(?<y>['"])([^'">]*?)\k<y>
+  (?:name|id)=(?<x>['"])([^"'>]*?)\k<x>[^>]*?value=(?<y>['"])([^'">]*?)\k<y> OR
+  name=(?<x>['"])([^"'>]*?)\k<x>[^>]*?value=(?<y>['"])([^'">]*?)\k<y> (?:checked="(.+?)")?
 Get all name-value pairs (for POST requests).
 
 AnchorHref
