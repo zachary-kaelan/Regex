@@ -1,3 +1,7 @@
 HexWord64ToUnsignedInt64
   W64LIT\((.+?)\)(   \/\*\s*?\d{1,4} \*\/,?\s{0,5}) ~~~ Convert.ToUInt64("$1")$2
 Changes Word64 declarations in C/C++ to UInt64 declarations in C#.
+
+HexToLong
+  (0x.+?)(?:,|$) ~~~ Convert.ToInt64("$1", 16),
+Converts a comma-newline separated list of hexvalues to a list of longs.
