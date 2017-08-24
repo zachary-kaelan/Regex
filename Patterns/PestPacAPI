@@ -1,3 +1,3 @@
 PhoneNumberFormatting
-  \(?(\d{3})\)?[ -]?(\d{3})[ -]?(\d{4})
+  \(?(\d{3})\)?[ -]?(\d{3})[ -]?(\d{4}) ~~~ $1-$2-$3
 Format a phone number to match the ones in the PestPac database.
