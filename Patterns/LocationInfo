@@ -1,0 +1,3 @@
+Names
+  ^([A-Za-z-]+?)\s(?:(?:and|&)\s([A-Za-z-]+?)\s)?.*?([A-Za-z-]+?)?$
+Get the first name, last name, and spouse name if two first names are included.
