@@ -18,3 +18,6 @@ NewServiceAgreement
   CUSTOMER & SERVICE LOCATION CUSTOMER & BILLING ADDRESS\s^(.*?)$\s^Email: (?<x>.*?)$\sPhone: (?<y>.*?)$\s^([^,\n]*?), (.*?)$
 Get key customer information from text extracted from a PDF.
 
+Branch
+  (?<x>Insight - (.+?)) \k<x> OR
+  (?<x>(?:Insight - |Local Branch Address\n.[^,\n\r]+, )(.+?))\s(?:\k<x>|\d+)
