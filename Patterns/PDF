@@ -9,7 +9,8 @@ Get the four to five months that make up a service schedule.
 
 Invoice
   www\.insightpest\.com\n.+?\n(.+?)\n(.+?)\n(.+?)\n OR
-  (?:www\.insightpest\.com\n|\$.+?\$).+?\n([^!\n\r]+?)\n(.+?)\n(.+?)\n
+  (?:www\.insightpest\.com\n|\$.+?\$).+?\n([^!\n\r]+?)\n(.+?)\n(.+?)\n OR
+  (?:(?:www\.insightpest\.com\n|\$.+?\$).+?\n(?!(?<x>.+?) \k<x>)|(?:(?:Services\/Fees ){2}(?:Price ?){2}(?:\n.+){2})\n)([^!\n\r]+?)\n(.+?)\n(.+?)(?:\n|$)
 Get key customer information from text extracted from a PDF.
 
 NewServiceAgreement
